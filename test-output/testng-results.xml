@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Automation Test Suite" duration-ms="12518" started-at="2018-08-17T12:49:49Z" finished-at="2018-08-17T12:50:01Z">
+    <groups>
+    </groups>
+    <test name="Yahoo Automation" duration-ms="12518" started-at="2018-08-17T12:49:49Z" finished-at="2018-08-17T12:50:01Z">
+      <class name="com.testNgParameterTest.TestNGParameter">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.testNgParameterTest.TestNGParameter@1794d431]" name="Setup" is-config="true" duration-ms="5069" started-at="2018-08-17T12:49:49Z" finished-at="2018-08-17T12:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="yahooLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testNgParameterTest.TestNGParameter@1794d431]" name="yahooLogin" duration-ms="6577" started-at="2018-08-17T12:49:54Z" finished-at="2018-08-17T12:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[reshmi@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testNgParameterTest.TestNGParameter@1794d431]" name="teardown" is-config="true" duration-ms="819" started-at="2018-08-17T12:50:01Z" finished-at="2018-08-17T12:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testNgParameterTest.TestNGParameter -->
+    </test> <!-- Yahoo Automation -->
+  </suite> <!-- Yahoo Automation Test Suite -->
+</testng-results>
